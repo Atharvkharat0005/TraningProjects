@@ -1,13 +1,18 @@
 public class Main {
     
-public static void main(String[] args) {
-    
-  developer deve = new developer();
 
-  deve.calculateAnualSalary(123, "Atharv kharat",50000);
-  
+    public static void main(String[] args) {
+        
+        newcar eng = new newcar();
+        
+        eng.start();
+        eng.stop();
+        eng.petrolEngine();
+        eng.start();
+       
+        
+        
 
-
-}
-
+        
+    }
 }
